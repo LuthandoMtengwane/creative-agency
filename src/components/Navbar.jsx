@@ -3,9 +3,14 @@ import "../sass/components/navbar.scss";
 
 const Navbar = () => {
   return (
-    <div>
-      <p>Navbar</p>
-    </div>
+    <nav className="nav">
+      <div className="logo">
+        <h2>iS.</h2>
+      </div>
+      <div className="hamburger">
+        <h2 className="plus">+</h2>
+      </div>
+    </nav>
   );
 };
 

@@ -1,0 +1,20 @@
+.title {
+  font-size: clamp(3rem, 6vw, 5rem);
+}
+
+.header {
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .build {
+    margin-bottom: 2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
